@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #322f2f;
+    margin-bottom: 40px;
+  }
+  
+  #planets {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  #planets td {
+    border: 3px dotted #d1c1c1;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  #planets th{
+    border: 3px dotted #d1c1c1;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  #planets th {
+    background-color: #4C4C4C;
+    color: white;
+  }
+  
+  #planets img {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  #planets td:nth-child(2) { 
+    background-color: #a5987e;
+  }
+  #planets td:nth-child(3) {
+    background-color: #c7aa59;
+  }
+  #planets td:nth-child(4) { 
+    background-color: #87b3c2;
+  }
+  #planets td:nth-child(5) { 
+    background-color: #4364ea;
+  }
